@@ -1,0 +1,23 @@
+# week5 runtime + tooling ignores
+# Generated live data (remade every few seconds, never commit)
+dashboard_history.csv
+live_snapshot.json
+usb_live.json
+
+# Stray file from `curl -o NUL` on Git Bash (Windows null device)
+NUL
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local editor / OS noise
+.kilo/
+.vscode/
+.DS_Store
+Thumbs.db
+
+
+task_manager_and_security_features_list.txt
+workflow.md
+*.webp
